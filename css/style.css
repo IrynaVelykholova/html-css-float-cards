@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header {
+    padding: 30px;
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+}
+h1, main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(229, 49, 112);
+    font-weight: 800;
+    text-align: center;
+}
+main {
+    padding-bottom: 30px;
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
