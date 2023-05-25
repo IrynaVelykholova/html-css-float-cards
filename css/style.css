@@ -36,6 +36,9 @@ main {
     width: 100%;
     margin: auto;
 }
+.first-container {
+    margin-bottom: 35px;
+}
 img {
     height: 100px;
 }
@@ -43,6 +46,7 @@ img {
     background-color: black;
     color: white;
     border: 1px solid red;
+    float: right;
     width: 33,3%;
 }
 .name{
