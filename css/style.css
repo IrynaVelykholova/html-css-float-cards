@@ -3,16 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-.clearfix::after{
+.clearfix{
     content: "";
     display: table;
     clear: both;
 }
-header {
-    padding: 30px;
-    max-width: 920px;
+body {
+    max-width: 1100px;
     width: 100%;
     margin: auto;
+}
+header {
+    padding: 30px;
 }
 .title, .section-main, section {
     font-family: Arial, Helvetica, sans-serif;
@@ -24,30 +26,25 @@ h1 {
 }
 main {
     padding-bottom: 30px;
-    max-width: 920px;
-    width: 100%;
-    margin: auto;
     box-sizing: border-box;
+}
+.section-main {
     text-align: center;
 }
-.container {
-    margin: auto;
-    max-width: 920px;
-    width: 100%;
-    margin: auto;
-}
 .first-container {
-    margin-bottom: 35px;
+    background-color: yellow;
 }
 img {
     height: 100px;
 }
+
 .box {
+    box-sizing: content-box;
     background-color: black;
     color: white;
-    border: 1px solid red;
-    float: right;
-    width: 33,3%;
+    margin: 10px;
+    width: 30%;
+    height: 100px;
 }
 .name{
     font-weight: bolder;
@@ -55,4 +52,9 @@ img {
 .email {
     color: rgb(0, 84, 189);
 }
-
+.pic, .text-box, .box {
+    float: left;
+}
+.text-box {
+    padding: 15px;
+}
