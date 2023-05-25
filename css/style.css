@@ -14,7 +14,7 @@ header {
     width: 100%;
     margin: auto;
 }
-.title, .section-main {
+.title, .section-main, section {
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -30,12 +30,25 @@ main {
     box-sizing: border-box;
     text-align: center;
 }
+.container {
+    margin: auto;
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+}
 img {
     height: 100px;
 }
 .box {
     background-color: black;
-    border: 1px solid red;
     color: white;
+    border: 1px solid red;
+    width: 33,3%;
+}
+.name{
+    font-weight: bolder;
+}
+.email {
+    color: rgb(0, 84, 189);
 }
 
